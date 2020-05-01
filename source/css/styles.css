@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* Main */
+body{
+  font-family: 'Lato', sans-serif !important; 
+}
+.main {
+  font-family: 'Lato', sans-serif !important; 
+  background: url('../../dist/img/ban.jpg') no-repeat center;
+  background-color: #007bff;
+}
+
+/* Navbar */
+  .navbar {
+    padding: 20px !important;
+    font-family: 'Fredoka One', cursive;
+  }.nav-link{
+    color: #fff !important;
+  }.nav-link:hover{
+    color: #ffc107 !important;
+  }
+  .navbar-brand{
+    color: #fff !important;
+  }.navbar-brand:hover{
+    color: #fff;
+  }
+
+/* 
+  A Revoir [Ne marche pas] Class BLock  
+  transition: linear 10s all;
+  */
+
+/* Gestion Formulaire */
+.section-formulaire {
+  color: #fff;
+  padding:20px;
+}
+.navbar-brand-footer{
+  font-size: 25px !important;
+  color: #fff;
+}
+.navbar-brand-footer:hover{
+  color: #fff;
+  text-decoration: none;
+}
+label {
+  font-size: 30px;
+}
+
+/* Gestion ICON */
+.fab  {
+  font-size: 50px;
+}
+.fas {
+  font-size: 30px;
+}
+.far {
+  font-size: 50px;
+}
+
+/* Block */
+.block {
+  border: 0.5rem solid #ffc107;
+  background-color: #fff;
+}.block p{
+  font-family: 'Bangers', cursive;
+  font-size: 18px;
+}
+
+/* Jumbotron */
+.section-index{
+  background-color:  #007bff !important;
+  text-align: center;
+  color: #fff;
+  font-family: 'Alfa Slab One', cursive;
+}
+.section-cards {
+  margin-top: 5%;
+}
+/* PAGE BOT */
+.bot-info{
+  border: 0.5rem solid #ffc107;
+  padding: 100px;
+  background-color: #fff;
+}
+
+/* Téléphone [Android] [Iphone 5c]*/
+@media screen and (max-width: 800px) {
+
+  .block {
+    border: 0.2rem solid #ffc107;
+  }
+  .block h1{
+      font-size: 30px !important;
+    }
+  .block p{
+    font-size: 10px;
+  }
+
+  .display-3{
+    font-size: 30px !important;
+  }
+  .card {
+    margin-top: 2%;
+  }
+
+  /* Page [BOT] */
+  .bot-info{
+    border: 0.2rem solid #ffc107;
+  }
+  .bot-info h1{
+    font-size: 20px !important;
+  }
+  .bot-info p{
+    font-size: 10px;
+  }
+  .list-group-item {
+    font-size: 10px;
+  }
+  .section-cards p {
+    font-size: 15px;
+  }
+  .navbar-brand-footer{
+    font-size: 10px !important;
+  }
+}
+
+
+
+
